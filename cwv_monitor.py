@@ -55,9 +55,30 @@ THRESHOLDS = {
 # URL collection
 # --------------------------------------------------------------------------- #
 def fetch(url, timeout=60):
-    req = urllib.request.Request(url, headers={"User-Agent": "CWV-Monitor/1.0"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; CWV-Monitor/1.0; +https://github.com)",
+        "Accept": "application/xml,text/xml,*/*",
+        "Accept-Encoding": "gzip, deflate",
+    })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read()
+        data = resp.read()
+        enc = (resp.headers.get("Content-Encoding") or "").lower()
+        if "gzip" in enc:
+            import gzip
+            try:
+                data = gzip.decompress(data)
+            except Exception:
+                pass
+        elif "deflate" in enc:
+            import zlib
+            try:
+                data = zlib.decompress(data)
+            except Exception:
+                try:
+                    data = zlib.decompress(data, -zlib.MAX_WBITS)
+                except Exception:
+                    pass
+        return data
 
 
 def urls_from_sitemap(sitemap_url, _seen=None):
@@ -97,9 +118,13 @@ def urls_from_sitemap(sitemap_url, _seen=None):
                 root = ET.fromstring(text[m2.start():])
             except ET.ParseError as e:
                 print(f"  ! could not parse sitemap {sitemap_url}: {e}")
+                print(f"    [diagnostic] first 300 chars received:\n    "
+                      + repr(text[:300]))
                 return []
         else:
-            print(f"  ! could not parse sitemap {sitemap_url}")
+            print(f"  ! could not parse sitemap {sitemap_url} — no <urlset>/<sitemapindex> found")
+            print(f"    [diagnostic] first 300 chars received:\n    "
+                  + repr(text[:300]))
             return []
 
     def localname(tag):

@@ -82,7 +82,33 @@ def run_site(site, api_key, out_dir, strategies, delay, limit):
     os.makedirs(out_dir, exist_ok=True)
     run_date = dt.date.today().isoformat()
 
-    urls = m.urls_from_sitemap(site["sitemap"])
+    # A site can be defined by:
+    #   (a) a sitemap URL                          -> auto-discovers pages
+    #   (b) a local file of URLs (one per line)    -> e.g. "file:premier-urls.txt"
+    #   (c) one or more page URLs inline, '|'-sep  -> manual list
+    # (b) and (c) are useful when a site blocks bots from its sitemap.
+    src = site["sitemap"].strip()
+
+    if src.lower().startswith("file:"):
+        fname = src[5:].strip()
+        try:
+            with open(fname, "r", encoding="utf-8") as fh:
+                urls = [ln.strip() for ln in fh
+                        if ln.strip() and not ln.strip().startswith("#")
+                        and ln.strip().lower().startswith("http")]
+            print(f"  ({len(urls)} URLs loaded from {fname})")
+        except FileNotFoundError:
+            print(f"  ! URL list file not found: {fname}")
+            urls = []
+    else:
+        parts = [p.strip() for p in re.split(r"[\s|]+", src) if p.strip()]
+        looks_like_sitemap = (len(parts) == 1 and
+                              ("sitemap" in parts[0].lower() or parts[0].lower().endswith(".xml")))
+        if looks_like_sitemap:
+            urls = m.urls_from_sitemap(parts[0])
+        else:
+            urls = parts  # inline manual list
+
     seen, clean = set(), []
     for u in urls:
         if u in seen:

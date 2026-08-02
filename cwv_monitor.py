@@ -31,6 +31,7 @@ import csv
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -73,13 +74,33 @@ def urls_from_sitemap(sitemap_url, _seen=None):
         print(f"  ! could not fetch sitemap {sitemap_url}: {e}")
         return []
 
-    # strip namespaces for simpler parsing
-    text = raw.decode("utf-8", errors="ignore")
+    # decode and clean up common issues that break strict XML parsing:
+    #  - UTF-8 byte-order mark (BOM)
+    #  - Yoast/other XSL stylesheet processing instructions before the root
+    #  - any stray content before the XML/root element
+    text = raw.decode("utf-8-sig", errors="ignore")  # utf-8-sig strips a BOM
+    # remove <?xml-stylesheet ...?> processing instructions (Yoast adds these)
+    text = re.sub(r"<\?xml-stylesheet[^>]*\?>", "", text)
+    # trim anything before the first real tag (declaration or root element)
+    lt = text.find("<")
+    if lt > 0:
+        text = text[lt:]
+    text = text.strip()
+
     try:
         root = ET.fromstring(text)
-    except ET.ParseError as e:
-        print(f"  ! could not parse sitemap {sitemap_url}: {e}")
-        return []
+    except ET.ParseError:
+        # last resort: try again from the first root-ish tag
+        m2 = re.search(r"<(?:\w+:)?(?:sitemapindex|urlset)\b", text)
+        if m2:
+            try:
+                root = ET.fromstring(text[m2.start():])
+            except ET.ParseError as e:
+                print(f"  ! could not parse sitemap {sitemap_url}: {e}")
+                return []
+        else:
+            print(f"  ! could not parse sitemap {sitemap_url}")
+            return []
 
     def localname(tag):
         return tag.split("}")[-1].lower()

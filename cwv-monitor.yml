@@ -1,0 +1,56 @@
+name: Core Web Vitals Monitor
+
+# Runs on the 1st of every month at 09:00 UTC. Also runnable by hand.
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run monitor for ALL sites in sites.csv
+        env:
+          CWV_API_KEY: ${{ secrets.CWV_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_FROM: ${{ vars.ALERT_FROM }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python run_all.py
+
+      - name: Commit results back to the repo
+        run: |
+          git config user.name  "cwv-bot"
+          git config user.email "cwv-bot@users.noreply.github.com"
+          git add docs/
+          git commit -m "CWV report $(date +%Y-%m-%d)" || echo "no changes"
+          git push
+
+      - name: Upload dashboard to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy-pages:
+    needs: monitor
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

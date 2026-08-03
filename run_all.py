@@ -166,14 +166,10 @@ def run_site(site, api_key, out_dir, strategies, delay, limit):
         strat = r.get("strategy")
         if strat in ("mobile", "desktop"):
             d[strat] = {
-                "perf":   _num(r.get("perf_score")),
-                "fLCP":   _num(r.get("field_LCP_ms")),
-                "fINP":   _num(r.get("field_INP_ms")),
-                "fCLS":   _num(r.get("field_CLS")),
-                "labLCP": _num(r.get("lab_LCP_ms")),
-                "labCLS": _num(r.get("lab_CLS")),
-                "labTBT": _num(r.get("lab_TBT_ms")),
-                "overall": r.get("field_overall", ""),
+                "perf":  _num(r.get("perf_score")),
+                "a11y":  _num(r.get("a11y_score")),
+                "bp":    _num(r.get("bp_score")),
+                "seo":   _num(r.get("seo_score")),
             }
     pages_data = list(by_url.values())
 
@@ -229,7 +225,7 @@ def main():
     ap = argparse.ArgumentParser(description="Run CWV monitor for all sites in sites.csv")
     ap.add_argument("--sites", default="sites.csv")
     ap.add_argument("--docs", default="docs")
-    ap.add_argument("--strategies", default="mobile,desktop")
+    ap.add_argument("--strategies", default="mobile")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--api-key", default=os.environ.get("CWV_API_KEY"))

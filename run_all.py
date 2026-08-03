@@ -142,6 +142,51 @@ def run_site(site, api_key, out_dir, strategies, delay, limit):
             rows.append(r)
             import time as _t; _t.sleep(delay)
 
+    # ---- stabilize the HOMEPAGE: run it extra times and take the median
+    # Performance (the one timing-sensitive, run-to-run-variable score). Other
+    # categories are deterministic, so we keep them from the first run.
+    homepage_samples = int(os.environ.get("HOMEPAGE_SAMPLES", "5"))
+    home_url = None
+    for u in clean:
+        try:
+            from urllib.parse import urlparse
+            if urlparse(u).path in ("", "/"):
+                home_url = u
+                break
+        except Exception:
+            pass
+    if home_url is None:
+        home_url = clean[0]
+
+    home_perfs = []
+    # include the perf we already got for the homepage this run (mobile)
+    for r in rows:
+        if r.get("url") == home_url and r.get("strategy") == "mobile":
+            v = _num(r.get("perf_score"))
+            if v is not None:
+                home_perfs.append(v)
+    extra = max(0, homepage_samples - 1)
+    if extra:
+        print(f"\n  Stabilizing homepage ({home_url}) with {extra} extra sample(s)…")
+        for k in range(extra):
+            try:
+                data = m.run_psi(home_url, "mobile", api_key)
+                rr = m.parse_result(data, home_url, "mobile")
+                v = _num(rr.get("perf_score"))
+                if v is not None:
+                    home_perfs.append(v)
+                    print(f"    homepage sample {k+2}/{homepage_samples}: {v}")
+            except Exception as e:
+                print(f"    homepage sample {k+2} failed: {e}")
+            import time as _t; _t.sleep(delay)
+
+    home_perf_median = None
+    if home_perfs:
+        s = sorted(home_perfs)
+        n = len(s)
+        home_perf_median = s[n // 2] if n % 2 else round((s[n//2 - 1] + s[n//2]) / 2)
+        print(f"  Homepage Performance: samples={s} -> median {home_perf_median}")
+
     # keep permanent CSV history per site — capture PREVIOUS score first
     csv_path = os.path.join(out_dir, "cwv_history.csv")
     prev_history = m.read_history(csv_path)
@@ -172,6 +217,13 @@ def run_site(site, api_key, out_dir, strategies, delay, limit):
                 "seo":   _num(r.get("seo_score")),
             }
     pages_data = list(by_url.values())
+
+    # apply the stabilized homepage median to the homepage's mobile Performance
+    if home_perf_median is not None:
+        for p in pages_data:
+            if p["url"] == home_url and p.get("mobile"):
+                p["mobile"]["perf"] = home_perf_median
+                p["mobile"]["perfSamples"] = sorted(home_perfs)
 
     # ---- trend: avg mobile perf per run_date, from full history ----
     trend_map = {}

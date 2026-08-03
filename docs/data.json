@@ -1,17 +1,21 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "sites": [
     {
       "name": "Premier LA Perio",
       "sample": "https://laperioimplantcenter.com/",
       "pages": 30,
-      "avgMobile": 87,
+      "avgMobile": 88,
       "failCount": 0,
       "noDataCount": 30,
       "trend": [
         {
           "date": "2026-08-02",
           "score": 87
+        },
+        {
+          "date": "2026-08-03",
+          "score": 88
         }
       ],
       "pagesData": [
@@ -19,691 +23,301 @@
           "url": "https://laperioimplantcenter.com/",
           "mobile": {
             "perf": 65,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 6355,
-            "labCLS": 0.005,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 92,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 1021,
-            "labCLS": 0.053,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/privacy-policy/",
           "mobile": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2327,
-            "labCLS": 0.025,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 97,
+            "a11y": 96,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 522,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/terms-of-service/",
           "mobile": {
             "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2327,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 522,
-            "labCLS": 0.018,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/",
           "mobile": {
             "perf": 91,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3527,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 762,
-            "labCLS": 0.005,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/about-dr-tina-jung/",
           "mobile": {
-            "perf": 93,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2927,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 98,
+            "a11y": 98,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 703,
-            "labCLS": 0.012,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/contact/",
           "mobile": {
             "perf": 79,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 5927,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 96,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 1421,
-            "labCLS": 0.007,
-            "labTBT": 39,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/westwood/",
           "mobile": {
-            "perf": 65,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 9002,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 79,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 1122,
-            "labCLS": 0.001,
-            "labTBT": 2,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/santa-monica/",
           "mobile": {
-            "perf": 69,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 6628,
-            "labCLS": 0.001,
-            "labTBT": 11,
-            "overall": ""
+            "perf": 66,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 722,
-            "labCLS": 0.005,
-            "labTBT": 12,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/culver-city/",
           "mobile": {
-            "perf": 65,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 7364,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 64,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 882,
-            "labCLS": 0,
-            "labTBT": 25,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/west-la/",
           "mobile": {
-            "perf": 64,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 9077,
-            "labCLS": 0,
-            "labTBT": 78,
-            "overall": ""
+            "perf": 67,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 1162,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/brentwood/",
           "mobile": {
-            "perf": 66,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 6476,
-            "labCLS": 0,
-            "labTBT": 62,
-            "overall": ""
+            "perf": 94,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 682,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/before-afters/",
           "mobile": {
             "perf": 82,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 4804,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 96,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 922,
-            "labCLS": 0.008,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/sedation-comfort/",
           "mobile": {
             "perf": 97,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2552,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 582,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/gum-disease-treatment/",
           "mobile": {
-            "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2102,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 92,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 762,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/laser-gum-treatment/",
           "mobile": {
-            "perf": 93,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3164,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 90,
+            "a11y": 96,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 771,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/cosmetic-periodontics/",
           "mobile": {
-            "perf": 92,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3229,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 95,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 718,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/dental-implants/",
           "mobile": {
-            "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2253,
-            "labCLS": 0.002,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 90,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 791,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/teeth-in-a-day/",
           "mobile": {
             "perf": 90,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3603,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 822,
-            "labCLS": 0.001,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/treating-failed-dental-implants/",
           "mobile": {
             "perf": 95,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3002,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 582,
-            "labCLS": 0.005,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/initial-consultation/",
           "mobile": {
             "perf": 94,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3060,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 96,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 682,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/testimonials/",
           "mobile": {
             "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2102,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 582,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/state-of-the-art-technology/",
           "mobile": {
-            "perf": 96,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2852,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 95,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 642,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/accessibility-statement/",
           "mobile": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2327,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 96,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 502,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/los-angeles-dental-collective/",
           "mobile": {
-            "perf": 99,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2027,
-            "labCLS": 0.023,
-            "labTBT": 0,
-            "overall": ""
-          },
-          "desktop": {
             "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 522,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+            "a11y": 96,
+            "bp": 96,
+            "seo": 92
+          },
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/online-referral-form/",
           "mobile": {
-            "perf": 83,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2028,
-            "labCLS": 0.289,
-            "labTBT": 41,
-            "overall": ""
+            "perf": 84,
+            "a11y": 100,
+            "bp": 73,
+            "seo": 92
           },
-          "desktop": {
-            "perf": 90,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 446,
-            "labCLS": 0.191,
-            "labTBT": 7,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/finances-insurance/",
           "mobile": {
             "perf": 95,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2703,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 92,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 628,
-            "labCLS": 0.005,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/about-la-periodontics-dental-implant-center/",
           "mobile": {
-            "perf": 77,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 5703,
-            "labCLS": 0,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 78,
+            "a11y": 96,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 1142,
-            "labCLS": 0.008,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/why-choose-us/",
           "mobile": {
-            "perf": 98,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2252,
-            "labCLS": 0.002,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 97,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 522,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/gum-graft/",
           "mobile": {
-            "perf": 88,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 3902,
-            "labCLS": 0.001,
-            "labTBT": 0,
-            "overall": ""
+            "perf": 87,
+            "a11y": 100,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 793,
-            "labCLS": 0.006,
-            "labTBT": 0,
-            "overall": ""
-          }
+          "desktop": {}
         },
         {
           "url": "https://laperioimplantcenter.com/post-operative-instructions/",
           "mobile": {
             "perf": 96,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 2702,
-            "labCLS": 0.004,
-            "labTBT": 0,
-            "overall": ""
+            "a11y": 96,
+            "bp": 96,
+            "seo": 100
           },
-          "desktop": {
-            "perf": 100,
-            "fLCP": null,
-            "fINP": null,
-            "fCLS": null,
-            "labLCP": 622,
-            "labCLS": 0.005,
-            "labTBT": 18,
-            "overall": ""
-          }
+          "desktop": {}
         }
       ]
     }

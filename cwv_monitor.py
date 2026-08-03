@@ -170,12 +170,16 @@ def load_urls(args):
 # PageSpeed Insights call + parse
 # --------------------------------------------------------------------------- #
 def run_psi(url, strategy, api_key, retries=3):
-    params = {
-        "url": url,
-        "strategy": strategy,
-        "category": "performance",
-        "key": api_key,
-    }
+    # request all four Lighthouse categories (category param can repeat)
+    params = [
+        ("url", url),
+        ("strategy", strategy),
+        ("category", "performance"),
+        ("category", "accessibility"),
+        ("category", "best-practices"),
+        ("category", "seo"),
+        ("key", api_key),
+    ]
     full = PSI_ENDPOINT + "?" + urllib.parse.urlencode(params)
     last_err = None
     for attempt in range(1, retries + 1):
@@ -219,9 +223,15 @@ def parse_result(data, url, strategy):
     audits = lh.get("audits", {})
     cats = lh.get("categories", {})
 
-    # Lab (Lighthouse) ------------------------------------------------------
+    # Lab (Lighthouse) — four category scores --------------------------------
+    def _cat(name):
+        s = cats.get(name, {}).get("score")
+        return round(s * 100) if s is not None else None
     perf = cats.get("performance", {}).get("score")
     row["perf_score"] = round(perf * 100) if perf is not None else None
+    row["a11y_score"] = _cat("accessibility")
+    row["bp_score"]   = _cat("best-practices")
+    row["seo_score"]  = _cat("seo")
     row["lab_LCP_ms"] = _lab_ms(audits, "largest-contentful-paint")
     row["lab_CLS"]    = (round(audits.get("cumulative-layout-shift", {})
                                .get("numericValue", 0), 3)

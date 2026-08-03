@@ -5,7 +5,7 @@
       "name": "Premier LA Perio",
       "sample": "https://laperioimplantcenter.com/",
       "pages": 30,
-      "avgMobile": 88,
+      "avgMobile": 89,
       "failCount": 0,
       "noDataCount": 30,
       "trend": [
@@ -15,17 +15,24 @@
         },
         {
           "date": "2026-08-03",
-          "score": 88
+          "score": 89
         }
       ],
       "pagesData": [
         {
           "url": "https://laperioimplantcenter.com/",
           "mobile": {
-            "perf": 65,
+            "perf": 83,
             "a11y": 100,
             "bp": 92,
-            "seo": 92
+            "seo": 92,
+            "perfSamples": [
+              65,
+              83,
+              83,
+              83,
+              85
+            ]
           },
           "desktop": {}
         },
@@ -62,7 +69,7 @@
         {
           "url": "https://laperioimplantcenter.com/about-dr-tina-jung/",
           "mobile": {
-            "perf": 98,
+            "perf": 94,
             "a11y": 98,
             "bp": 96,
             "seo": 100
@@ -72,7 +79,7 @@
         {
           "url": "https://laperioimplantcenter.com/contact/",
           "mobile": {
-            "perf": 79,
+            "perf": 64,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -82,7 +89,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/westwood/",
           "mobile": {
-            "perf": 79,
+            "perf": 75,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -102,7 +109,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/culver-city/",
           "mobile": {
-            "perf": 64,
+            "perf": 85,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -112,7 +119,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/west-la/",
           "mobile": {
-            "perf": 67,
+            "perf": 65,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -132,7 +139,7 @@
         {
           "url": "https://laperioimplantcenter.com/before-afters/",
           "mobile": {
-            "perf": 82,
+            "perf": 85,
             "a11y": 96,
             "bp": 96,
             "seo": 100
@@ -152,7 +159,7 @@
         {
           "url": "https://laperioimplantcenter.com/gum-disease-treatment/",
           "mobile": {
-            "perf": 92,
+            "perf": 99,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -162,7 +169,7 @@
         {
           "url": "https://laperioimplantcenter.com/laser-gum-treatment/",
           "mobile": {
-            "perf": 90,
+            "perf": 93,
             "a11y": 96,
             "bp": 96,
             "seo": 100
@@ -172,7 +179,7 @@
         {
           "url": "https://laperioimplantcenter.com/cosmetic-periodontics/",
           "mobile": {
-            "perf": 95,
+            "perf": 92,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -182,7 +189,7 @@
         {
           "url": "https://laperioimplantcenter.com/dental-implants/",
           "mobile": {
-            "perf": 90,
+            "perf": 91,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -202,7 +209,7 @@
         {
           "url": "https://laperioimplantcenter.com/treating-failed-dental-implants/",
           "mobile": {
-            "perf": 95,
+            "perf": 93,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -222,7 +229,7 @@
         {
           "url": "https://laperioimplantcenter.com/testimonials/",
           "mobile": {
-            "perf": 99,
+            "perf": 97,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -232,7 +239,7 @@
         {
           "url": "https://laperioimplantcenter.com/state-of-the-art-technology/",
           "mobile": {
-            "perf": 95,
+            "perf": 96,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -242,7 +249,7 @@
         {
           "url": "https://laperioimplantcenter.com/accessibility-statement/",
           "mobile": {
-            "perf": 96,
+            "perf": 98,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -252,7 +259,7 @@
         {
           "url": "https://laperioimplantcenter.com/los-angeles-dental-collective/",
           "mobile": {
-            "perf": 100,
+            "perf": 99,
             "a11y": 96,
             "bp": 96,
             "seo": 92
@@ -262,7 +269,7 @@
         {
           "url": "https://laperioimplantcenter.com/online-referral-form/",
           "mobile": {
-            "perf": 84,
+            "perf": 82,
             "a11y": 100,
             "bp": 73,
             "seo": 92
@@ -272,7 +279,7 @@
         {
           "url": "https://laperioimplantcenter.com/finances-insurance/",
           "mobile": {
-            "perf": 95,
+            "perf": 97,
             "a11y": 92,
             "bp": 96,
             "seo": 100
@@ -282,7 +289,7 @@
         {
           "url": "https://laperioimplantcenter.com/about-la-periodontics-dental-implant-center/",
           "mobile": {
-            "perf": 78,
+            "perf": 79,
             "a11y": 96,
             "bp": 96,
             "seo": 100

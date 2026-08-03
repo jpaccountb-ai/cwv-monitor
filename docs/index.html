@@ -123,12 +123,22 @@ function Detail({site,onBack}){
         <Gauge score={hm.bp} label="Best Practices" size={110}/>
         <Gauge score={hm.seo} label="SEO" size={110}/>
       </div>
+      {hm.perfSamples && hm.perfSamples.length>1 &&
+        <div style={{textAlign:'center',margin:'-4px 0 0'}}>
+          <div style={{fontSize:11,color:'var(--ink-3)',fontWeight:600,textTransform:'uppercase',letterSpacing:'.04em',marginBottom:6}}>
+            Homepage Performance · {hm.perfSamples.length} runs (median shown above)</div>
+          <div style={{display:'flex',gap:6,justifyContent:'center',flexWrap:'wrap'}}>
+            {hm.perfSamples.map((v,i)=>(
+              <span key={i} className={"pill "+band(v)} style={{minWidth:34}}>{v}</span>
+            ))}
+          </div>
+        </div>}
       <div className="panel">
         <h2>All pages</h2>
         <p className="h-sub">Mobile Lighthouse scores per page. Click a column to sort.</p>
         <div style={{overflowX:'auto'}}>
         <table>
-          <thead><tr>{th('__u','Page',true)}{th('perf','Perf')}{th('a11y','A11y')}{th('bp','Best Prac.')}{th('seo','SEO')}</tr></thead>
+          <thead><tr>{th('__u','Page',true)}{th('perf','Performance')}{th('a11y','Accessibility')}{th('bp','Best Practices')}{th('seo','SEO')}</tr></thead>
           <tbody>
             {sorted.map((r,i)=>(
               <tr key={i}>
@@ -176,12 +186,12 @@ function App(){
 }
 const SAMPLE_DATA={demo:true,generated:"sample",sites:[
   {name:"Premier LA Perio",sample:"https://laperioimplantcenter.com/",pagesData:[
-    {url:"https://laperioimplantcenter.com/",mobile:{perf:83,a11y:100,bp:92,seo:92}},
+    {url:"https://laperioimplantcenter.com/",mobile:{perf:85,a11y:100,bp:92,seo:92,perfSamples:[58,72,85,85,91]}},
     {url:"https://laperioimplantcenter.com/dental-implants/",mobile:{perf:77,a11y:96,bp:92,seo:100}},
     {url:"https://laperioimplantcenter.com/local-service-areas/west-la/",mobile:{perf:64,a11y:98,bp:85,seo:92}}
   ]},
   {name:"Jaw Surgery NJ",sample:"https://jawsurgerynj.com/",pagesData:[
-    {url:"https://jawsurgerynj.com/",mobile:{perf:41,a11y:92,bp:79,seo:90}},
+    {url:"https://jawsurgerynj.com/",mobile:{perf:41,a11y:92,bp:79,seo:90,perfSamples:[38,41,55,72,90]}},
     {url:"https://jawsurgerynj.com/genioplasty/",mobile:{perf:36,a11y:88,bp:79,seo:92}}
   ]}
 ]};

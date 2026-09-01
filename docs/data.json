@@ -1,6 +1,1689 @@
 {
-  "generated": "2026-08-03",
+  "generated": "2026-09-01",
   "sites": [
+    {
+      "name": "Jaw Surgery NJ",
+      "sample": "https://jawsurgerynj.com/",
+      "pages": 166,
+      "avgMobile": 86,
+      "failCount": 0,
+      "noDataCount": 166,
+      "trend": [
+        {
+          "date": "2026-09-01",
+          "score": 86
+        }
+      ],
+      "pagesData": [
+        {
+          "url": "https://jawsurgerynj.com/",
+          "mobile": {
+            "perf": 74,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 85,
+            "perfSamples": [
+              74,
+              74,
+              74,
+              74,
+              77
+            ]
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/",
+          "mobile": {
+            "perf": 76,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/maxillary-transverse-deficiency/",
+          "mobile": {
+            "perf": 74,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/maxillary-transverse-deficiency/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/anterior-open-bite/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/anterior-open-bite/",
+          "mobile": {
+            "perf": 97,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/maxillomandibular-deficiency/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/maxillomandibular-deficiency/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/about-us/",
+          "mobile": {
+            "perf": 77,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/about-us/",
+          "mobile": {
+            "perf": 91,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/sleep-apnea/",
+          "mobile": {
+            "perf": 97,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/sleep-apnea/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/tmj/condylar-hyperplasia/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/tmj/condylar-hyperplasia/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/congenital/hemifacial-microsomia/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/congenital/hemifacial-microsomia/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/mandibular-asymmetry/",
+          "mobile": {
+            "perf": 98,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/mandibular-asymmetry/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/prognathism/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/prognathism/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/fronto-orbital-advancement/",
+          "mobile": {
+            "perf": 91,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/fronto-orbital-advancement/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/le-fort-iii-osteotomy/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/le-fort-iii-osteotomy/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cranial-vault-reshaping/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 92,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cranial-vault-reshaping/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/microtia-repair/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 92,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/microtia-repair/",
+          "mobile": {
+            "perf": 91,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/alveolar-bone-graft/",
+          "mobile": {
+            "perf": 97,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/alveolar-bone-graft/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/bilateral-cleft-lip-repair/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/bilateral-cleft-lip-repair/",
+          "mobile": {
+            "perf": 80,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/unilateral-cleft-lip-repair/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/unilateral-cleft-lip-repair/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/maxillary-distraction/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/maxillary-distraction/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/pediatric-mandibular-distraction/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/pediatric-mandibular-distraction/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/tmj-joint-replacement/",
+          "mobile": {
+            "perf": 97,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/tmj-joint-replacement/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/mandibular-retrognathia/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/mandibular-retrognathia/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/video-library/",
+          "mobile": {
+            "perf": 98,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/video-library/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/video-library-2/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/video-library-2/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/delaware/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/delaware/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/florida/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/florida/",
+          "mobile": {
+            "perf": 72,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/faq/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/faq/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/maxillary-hypoplasia/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/maxillary-hypoplasia/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft/unilateral-cleft-lip/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft/unilateral-cleft-lip/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft/velopharyngeal-insufficiency/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft/velopharyngeal-insufficiency/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft/alveolar-bone-cleft/",
+          "mobile": {
+            "perf": 96,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft/alveolar-bone-cleft/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft/cleft-palate/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft/cleft-palate/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft/bilateral-cleft-lip/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft/bilateral-cleft-lip/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/syndromic/treacher-collins-syndrome/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/syndromic/treacher-collins-syndrome/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/syndromic/crouzon-syndrome/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/syndromic/crouzon-syndrome/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/syndromic/apert-syndrome/",
+          "mobile": {
+            "perf": 74,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/syndromic/apert-syndrome/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/syndromic/pfeiffer-syndrome/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/syndromic/pfeiffer-syndrome/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/congenital/craniosynostosis/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/congenital/craniosynostosis/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/congenital/pierre-robin-sequence/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 88,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/congenital/pierre-robin-sequence/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/vertical-maxillary-excess/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/vertical-maxillary-excess/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/washington-dc/",
+          "mobile": {
+            "perf": 81,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/washington-dc/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/virginia/",
+          "mobile": {
+            "perf": 74,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/virginia/",
+          "mobile": {
+            "perf": 76,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/south-carolina/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/south-carolina/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/rhode-island/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/rhode-island/",
+          "mobile": {
+            "perf": 81,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/pennsylvania/",
+          "mobile": {
+            "perf": 74,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/pennsylvania/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/new-york/",
+          "mobile": {
+            "perf": 75,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/new-york/",
+          "mobile": {
+            "perf": 81,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/north-carolina/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/north-carolina/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/new-jersey/",
+          "mobile": {
+            "perf": 76,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/new-jersey/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/massachusetts/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/massachusetts/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/maryland/",
+          "mobile": {
+            "perf": 75,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/maryland/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/contact-us/",
+          "mobile": {
+            "perf": 75,
+            "a11y": 93,
+            "bp": 77,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/contact-us/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 93,
+            "bp": 77,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/connecticut/",
+          "mobile": {
+            "perf": 74,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/connecticut/",
+          "mobile": {
+            "perf": 66,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/dr-jessica-lee/",
+          "mobile": {
+            "perf": 91,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/dr-jessica-lee/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/dr-gregg-jacob/",
+          "mobile": {
+            "perf": 80,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/dr-gregg-jacob/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/dr-john-amato/",
+          "mobile": {
+            "perf": 94,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/dr-john-amato/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/no-chew-soft-chew/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/no-chew-soft-chew/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/full-liquid-diet/",
+          "mobile": {
+            "perf": null,
+            "a11y": null,
+            "bp": null,
+            "seo": null
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/full-liquid-diet/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/clear-liquid-diet/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/clear-liquid-diet/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/post-operative-instructions/",
+          "mobile": {
+            "perf": 98,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/post-operative-instructions/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/anterior-open-bite-transformation/",
+          "mobile": {
+            "perf": 91,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/anterior-open-bite-transformation/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/maxillary-hypoplasia-transformation/",
+          "mobile": {
+            "perf": 77,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/maxillary-hypoplasia-transformation/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/prognathism-transformation/",
+          "mobile": {
+            "perf": 75,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/prognathism-transformation/",
+          "mobile": {
+            "perf": 90,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/before-after-gallery/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/before-after-gallery/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/vpi-correction/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/vpi-correction/",
+          "mobile": {
+            "perf": 83,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft-palate-repair/",
+          "mobile": {
+            "perf": 85,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft-palate-repair/",
+          "mobile": {
+            "perf": 83,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/bsso/",
+          "mobile": {
+            "perf": 82,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/bsso/",
+          "mobile": {
+            "perf": 83,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/monobloc-advancement/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/monobloc-advancement/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft-le-fort-i-osteotomy/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft-le-fort-i-osteotomy/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/facial-asymmetry-correction/",
+          "mobile": {
+            "perf": 82,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/facial-asymmetry-correction/",
+          "mobile": {
+            "perf": 83,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/monobloc-facial-bipartition/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/monobloc-facial-bipartition/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/double-jaw/",
+          "mobile": {
+            "perf": 97,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/double-jaw/",
+          "mobile": {
+            "perf": 82,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/le-fort-i-osteotomy/",
+          "mobile": {
+            "perf": 82,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/le-fort-i-osteotomy/",
+          "mobile": {
+            "perf": 81,
+            "a11y": 90,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/genioplasty/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/mentoplastia/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/tmj/condylar-resorption/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/tmj/condylar-resorption/",
+          "mobile": {
+            "perf": 87,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/georgia/",
+          "mobile": {
+            "perf": 84,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/georgia/",
+          "mobile": {
+            "perf": 86,
+            "a11y": 89,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/tmj/",
+          "mobile": {
+            "perf": 95,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/tmj/",
+          "mobile": {
+            "perf": 89,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/cleft/",
+          "mobile": {
+            "perf": 92,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/cleft/",
+          "mobile": {
+            "perf": 94,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/syndromic/",
+          "mobile": {
+            "perf": 92,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/syndromic/",
+          "mobile": {
+            "perf": 92,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/developmental/",
+          "mobile": {
+            "perf": 73,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/desarrollo/",
+          "mobile": {
+            "perf": 88,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/congenital/",
+          "mobile": {
+            "perf": 79,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 92
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/congenital/",
+          "mobile": {
+            "perf": 94,
+            "a11y": 91,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/pre-operative-instructions/",
+          "mobile": {
+            "perf": 92,
+            "a11y": 92,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/pre-operative-instructions/",
+          "mobile": {
+            "perf": 94,
+            "a11y": 92,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/meet-the-staff/",
+          "mobile": {
+            "perf": 78,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/meet-the-staff/",
+          "mobile": {
+            "perf": 92,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/blog/",
+          "mobile": {
+            "perf": 94,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/blog/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/book/",
+          "mobile": {
+            "perf": 93,
+            "a11y": 93,
+            "bp": 100,
+            "seo": 100
+          },
+          "desktop": {}
+        },
+        {
+          "url": "https://jawsurgerynj.com/es/book/",
+          "mobile": {
+            "perf": 100,
+            "a11y": 93,
+            "bp": 96,
+            "seo": 100
+          },
+          "desktop": {}
+        }
+      ]
+    },
     {
       "name": "Premier LA Perio",
       "sample": "https://laperioimplantcenter.com/",
@@ -16,22 +1699,26 @@
         {
           "date": "2026-08-03",
           "score": 89
+        },
+        {
+          "date": "2026-09-01",
+          "score": 88
         }
       ],
       "pagesData": [
         {
           "url": "https://laperioimplantcenter.com/",
           "mobile": {
-            "perf": 87,
+            "perf": 65,
             "a11y": 100,
             "bp": 92,
-            "seo": 85,
+            "seo": 92,
             "perfSamples": [
-              68,
-              80,
-              87,
-              87,
-              87
+              65,
+              65,
+              65,
+              82,
+              83
             ]
           },
           "desktop": {}
@@ -59,7 +1746,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/",
           "mobile": {
-            "perf": 81,
+            "perf": 91,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -79,7 +1766,7 @@
         {
           "url": "https://laperioimplantcenter.com/contact/",
           "mobile": {
-            "perf": 75,
+            "perf": 77,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -89,7 +1776,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/westwood/",
           "mobile": {
-            "perf": 65,
+            "perf": 79,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -99,7 +1786,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/santa-monica/",
           "mobile": {
-            "perf": 70,
+            "perf": 91,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -109,7 +1796,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/culver-city/",
           "mobile": {
-            "perf": 84,
+            "perf": 85,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -119,7 +1806,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/west-la/",
           "mobile": {
-            "perf": 64,
+            "perf": 63,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -129,7 +1816,7 @@
         {
           "url": "https://laperioimplantcenter.com/local-service-areas/brentwood/",
           "mobile": {
-            "perf": 94,
+            "perf": 67,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -149,7 +1836,7 @@
         {
           "url": "https://laperioimplantcenter.com/sedation-comfort/",
           "mobile": {
-            "perf": 96,
+            "perf": 97,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -159,7 +1846,7 @@
         {
           "url": "https://laperioimplantcenter.com/gum-disease-treatment/",
           "mobile": {
-            "perf": 92,
+            "perf": 76,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -169,7 +1856,7 @@
         {
           "url": "https://laperioimplantcenter.com/laser-gum-treatment/",
           "mobile": {
-            "perf": 93,
+            "perf": 88,
             "a11y": 96,
             "bp": 96,
             "seo": 100
@@ -179,7 +1866,7 @@
         {
           "url": "https://laperioimplantcenter.com/cosmetic-periodontics/",
           "mobile": {
-            "perf": 92,
+            "perf": 93,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -189,7 +1876,7 @@
         {
           "url": "https://laperioimplantcenter.com/dental-implants/",
           "mobile": {
-            "perf": 90,
+            "perf": 92,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -199,7 +1886,7 @@
         {
           "url": "https://laperioimplantcenter.com/teeth-in-a-day/",
           "mobile": {
-            "perf": 94,
+            "perf": 89,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -219,7 +1906,7 @@
         {
           "url": "https://laperioimplantcenter.com/initial-consultation/",
           "mobile": {
-            "perf": 94,
+            "perf": 93,
             "a11y": 96,
             "bp": 96,
             "seo": 100
@@ -229,7 +1916,7 @@
         {
           "url": "https://laperioimplantcenter.com/testimonials/",
           "mobile": {
-            "perf": 97,
+            "perf": 96,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -239,7 +1926,7 @@
         {
           "url": "https://laperioimplantcenter.com/state-of-the-art-technology/",
           "mobile": {
-            "perf": 95,
+            "perf": 96,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -249,7 +1936,7 @@
         {
           "url": "https://laperioimplantcenter.com/accessibility-statement/",
           "mobile": {
-            "perf": 98,
+            "perf": 99,
             "a11y": 100,
             "bp": 96,
             "seo": 92
@@ -259,7 +1946,7 @@
         {
           "url": "https://laperioimplantcenter.com/los-angeles-dental-collective/",
           "mobile": {
-            "perf": 99,
+            "perf": 97,
             "a11y": 96,
             "bp": 96,
             "seo": 92
@@ -269,7 +1956,7 @@
         {
           "url": "https://laperioimplantcenter.com/online-referral-form/",
           "mobile": {
-            "perf": 80,
+            "perf": 85,
             "a11y": 100,
             "bp": 73,
             "seo": 92
@@ -309,7 +1996,7 @@
         {
           "url": "https://laperioimplantcenter.com/gum-graft/",
           "mobile": {
-            "perf": 87,
+            "perf": 85,
             "a11y": 100,
             "bp": 96,
             "seo": 100
@@ -331,30 +2018,34 @@
     {
       "name": "Aptos",
       "sample": "https://aptosperioimplants.com/",
-      "pages": 46,
-      "avgMobile": 89,
+      "pages": 37,
+      "avgMobile": 88,
       "failCount": 0,
-      "noDataCount": 46,
+      "noDataCount": 37,
       "trend": [
         {
           "date": "2026-08-03",
           "score": 89
+        },
+        {
+          "date": "2026-09-01",
+          "score": 88
         }
       ],
       "pagesData": [
         {
           "url": "https://aptosperioimplants.com/",
           "mobile": {
-            "perf": 100,
+            "perf": 92,
             "a11y": 90,
             "bp": 100,
             "seo": 92,
             "perfSamples": [
-              100,
-              100,
-              100,
-              100,
-              100
+              90,
+              92,
+              92,
+              92,
+              92
             ]
           },
           "desktop": {}
@@ -362,7 +2053,7 @@
         {
           "url": "https://aptosperioimplants.com/template/header/",
           "mobile": {
-            "perf": 89,
+            "perf": 99,
             "a11y": 90,
             "bp": 100,
             "seo": 92
@@ -372,7 +2063,7 @@
         {
           "url": "https://aptosperioimplants.com/cosmetic-periodontics/",
           "mobile": {
-            "perf": 79,
+            "perf": 87,
             "a11y": 80,
             "bp": 100,
             "seo": 100
@@ -382,8 +2073,8 @@
         {
           "url": "https://aptosperioimplants.com/lanap-laser-surgery/",
           "mobile": {
-            "perf": 89,
-            "a11y": 91,
+            "perf": 86,
+            "a11y": 87,
             "bp": 100,
             "seo": 100
           },
@@ -392,7 +2083,7 @@
         {
           "url": "https://aptosperioimplants.com/contact/",
           "mobile": {
-            "perf": 93,
+            "perf": 86,
             "a11y": 88,
             "bp": 100,
             "seo": 100
@@ -402,7 +2093,7 @@
         {
           "url": "https://aptosperioimplants.com/template/footer/",
           "mobile": {
-            "perf": 96,
+            "perf": 94,
             "a11y": 90,
             "bp": 100,
             "seo": 92
@@ -412,8 +2103,8 @@
         {
           "url": "https://aptosperioimplants.com/teeth-in-a-day/",
           "mobile": {
-            "perf": 84,
-            "a11y": 91,
+            "perf": 86,
+            "a11y": 87,
             "bp": 100,
             "seo": 100
           },
@@ -432,8 +2123,8 @@
         {
           "url": "https://aptosperioimplants.com/dental-implants/",
           "mobile": {
-            "perf": 92,
-            "a11y": 92,
+            "perf": 82,
+            "a11y": 88,
             "bp": 100,
             "seo": 100
           },
@@ -442,7 +2133,7 @@
         {
           "url": "https://aptosperioimplants.com/template/aptos-content-alpha/",
           "mobile": {
-            "perf": 97,
+            "perf": 96,
             "a11y": 90,
             "bp": 100,
             "seo": 92
@@ -452,7 +2143,7 @@
         {
           "url": "https://aptosperioimplants.com/template/before-charlie-delta/",
           "mobile": {
-            "perf": 95,
+            "perf": 96,
             "a11y": 90,
             "bp": 100,
             "seo": 92
@@ -462,7 +2153,7 @@
         {
           "url": "https://aptosperioimplants.com/fixing-failed-implants/",
           "mobile": {
-            "perf": 89,
+            "perf": 83,
             "a11y": 84,
             "bp": 100,
             "seo": 100
@@ -472,7 +2163,7 @@
         {
           "url": "https://aptosperioimplants.com/sedation-comfort/",
           "mobile": {
-            "perf": 93,
+            "perf": 88,
             "a11y": 86,
             "bp": 100,
             "seo": 100
@@ -482,8 +2173,8 @@
         {
           "url": "https://aptosperioimplants.com/gum-disease-treatment/",
           "mobile": {
-            "perf": 94,
-            "a11y": 83,
+            "perf": 90,
+            "a11y": 86,
             "bp": 100,
             "seo": 100
           },
@@ -492,8 +2183,8 @@
         {
           "url": "https://aptosperioimplants.com/gum-grafting/",
           "mobile": {
-            "perf": 89,
-            "a11y": 88,
+            "perf": 83,
+            "a11y": 84,
             "bp": 100,
             "seo": 100
           },
@@ -502,8 +2193,8 @@
         {
           "url": "https://aptosperioimplants.com/bone-grafting/",
           "mobile": {
-            "perf": 85,
-            "a11y": 89,
+            "perf": 67,
+            "a11y": 86,
             "bp": 100,
             "seo": 100
           },
@@ -522,7 +2213,7 @@
         {
           "url": "https://aptosperioimplants.com/why-choose-us/",
           "mobile": {
-            "perf": 87,
+            "perf": 91,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -532,7 +2223,7 @@
         {
           "url": "https://aptosperioimplants.com/printable-referral-form/",
           "mobile": {
-            "perf": 70,
+            "perf": 89,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -542,7 +2233,7 @@
         {
           "url": "https://aptosperioimplants.com/pre-operative-instructions/",
           "mobile": {
-            "perf": 88,
+            "perf": 89,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -552,7 +2243,7 @@
         {
           "url": "https://aptosperioimplants.com/post-operative-instructions/",
           "mobile": {
-            "perf": 93,
+            "perf": 88,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -562,7 +2253,7 @@
         {
           "url": "https://aptosperioimplants.com/online-referral-form/",
           "mobile": {
-            "perf": 91,
+            "perf": 86,
             "a11y": 88,
             "bp": 77,
             "seo": 100
@@ -572,7 +2263,7 @@
         {
           "url": "https://aptosperioimplants.com/office-tour/",
           "mobile": {
-            "perf": 88,
+            "perf": 79,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -582,8 +2273,8 @@
         {
           "url": "https://aptosperioimplants.com/local-service-area/watsonville-ca/",
           "mobile": {
-            "perf": 83,
-            "a11y": 88,
+            "perf": 87,
+            "a11y": 84,
             "bp": 100,
             "seo": 100
           },
@@ -602,8 +2293,8 @@
         {
           "url": "https://aptosperioimplants.com/local-service-area/scotts-valley-ca/",
           "mobile": {
-            "perf": 77,
-            "a11y": 88,
+            "perf": 89,
+            "a11y": 84,
             "bp": 100,
             "seo": 100
           },
@@ -612,7 +2303,7 @@
         {
           "url": "https://aptosperioimplants.com/local-service-area/santa-cruz-ca/",
           "mobile": {
-            "perf": 94,
+            "perf": 91,
             "a11y": 88,
             "bp": 100,
             "seo": 100
@@ -622,8 +2313,8 @@
         {
           "url": "https://aptosperioimplants.com/local-service-area/capitola-ca/",
           "mobile": {
-            "perf": 88,
-            "a11y": 88,
+            "perf": 89,
+            "a11y": 84,
             "bp": 100,
             "seo": 100
           },
@@ -632,7 +2323,7 @@
         {
           "url": "https://aptosperioimplants.com/local-service-area/",
           "mobile": {
-            "perf": 88,
+            "perf": 93,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -642,8 +2333,8 @@
         {
           "url": "https://aptosperioimplants.com/initial-consultation/",
           "mobile": {
-            "perf": 90,
-            "a11y": 92,
+            "perf": 85,
+            "a11y": 88,
             "bp": 100,
             "seo": 100
           },
@@ -662,7 +2353,7 @@
         {
           "url": "https://aptosperioimplants.com/finances-insurance/",
           "mobile": {
-            "perf": 94,
+            "perf": 91,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -672,7 +2363,7 @@
         {
           "url": "https://aptosperioimplants.com/cutting-edge-technology/",
           "mobile": {
-            "perf": 92,
+            "perf": 85,
             "a11y": 87,
             "bp": 100,
             "seo": 100
@@ -682,7 +2373,7 @@
         {
           "url": "https://aptosperioimplants.com/before-and-after-images/",
           "mobile": {
-            "perf": 89,
+            "perf": 83,
             "a11y": 86,
             "bp": 100,
             "seo": 100
@@ -692,7 +2383,7 @@
         {
           "url": "https://aptosperioimplants.com/accessibility/",
           "mobile": {
-            "perf": 88,
+            "perf": 95,
             "a11y": 87,
             "bp": 100,
             "seo": 92
@@ -702,7 +2393,7 @@
         {
           "url": "https://aptosperioimplants.com/about-dr-jordan-richert/",
           "mobile": {
-            "perf": 93,
+            "perf": 89,
             "a11y": 85,
             "bp": 100,
             "seo": 100
@@ -710,102 +2401,12 @@
           "desktop": {}
         },
         {
-          "url": "https://aptosperioimplants.com/template/footer-echo/",
-          "mobile": {
-            "perf": 87,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/aptos-mike/",
-          "mobile": {
-            "perf": 76,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/aptos-feature-alpha-3/",
-          "mobile": {
-            "perf": 89,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/about-beta/",
-          "mobile": {
-            "perf": 95,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/feature-section-delta/",
-          "mobile": {
-            "perf": 96,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/aptos-feature-alpha-2/",
-          "mobile": {
-            "perf": 76,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/aptos-romeo/",
-          "mobile": {
-            "perf": 76,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/local-service-page/",
-          "mobile": {
-            "perf": 92,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
-          "url": "https://aptosperioimplants.com/template/before-footer/",
-          "mobile": {
-            "perf": 87,
-            "a11y": 90,
-            "bp": 100,
-            "seo": 92
-          },
-          "desktop": {}
-        },
-        {
           "url": "https://aptosperioimplants.com/category/uncategorized/",
           "mobile": {
-            "perf": 94,
+            "perf": 93,
             "a11y": 85,
             "bp": 100,
-            "seo": 92
+            "seo": 58
           },
           "desktop": {}
         }
